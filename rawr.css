@@ -1,0 +1,142 @@
+body{
+  background: url(magic-stars.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 2px dashed purple;
+  transform:translateY(20px);
+  margin-right: 10px;
+  border:2px solid purple;     
+    }
+     
+     #raw{
+       text-align: center;
+       background-color: white;
+       margin-right: 10px;
+       margin-left: 10px;
+       border:5px double black;
+            animation-name: glow;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes glow{
+        50%{box-shadow:0px 0px 50px white}
+      }
+    
+     .dawg{
+       color:violet;
+       text-align: center;
+       background-color: purple;
+       border:3px double white;
+       margin-left: 40px;
+       margin-right: 40px;
+       padding-bottom: 10px;
+       padding-top: 10px;
+       font-family: fantasy;
+       text-decoration:2px underline black;
+     } 
+     
+     #image{
+       width:300px;
+       height: 210px;
+       border:2px solid black;
+
+     }
+     
+     .dropbutton{
+       display: inline-block;
+       transition: .6s;
+     }
+     
+      .dropbutton button{
+       background-color:purple;
+       color:lightblue;
+       border:5px double blue;
+       font-family: fantasy;
+       cursor: pointer;
+       padding: 10px 15px;
+       font-weight: bold;
+      }
+      
+      .dropbutton button:hover{
+        background: violet;
+        font-family: Monospace;
+        transition-property: width;
+     transition-duration: 5s;
+       transition-delay: 5s;
+      }
+      
+     .dropbutton a{
+       display: block;
+       text-decoration: none;
+       color: black;
+       padding: 10px 15px;
+       margin-left: 5px;
+     }
+     
+     .dropbutton .stuff{
+       position: absolute;
+       background-color: cyan;
+       min-width: 50px;
+       box-shadow: 8px 10px 8px black;
+       display: none;
+     }
+    
+    .dropbutton:hover .stuff{
+      display: block;
+    }
+     
+   .dropbutton a:hover {
+     background: violet;
+     color: blue;
+     font-weight: bold;
+     font-family: fantasy;
+     text-decoration: underline black;
+   }
+   
+   .pervert ,h2,p{
+     color:violet;
+     background-color:black;
+     padding-left: 10px;
+     padding-right: 10px;
+     text-align: center;
+     margin-left: 10px;
+     margin-right: 10px;
+     border:2px solid purple;
+   }
+   
+   .hah {
+     color:violet;
+     Background-color:black;
+     text-align: center;
+     margin-left: 10px;
+     margin-right: 10px;
+     border:2px solid purple;
+   }
+    
+     .image{
+       width:290px;
+       margin-left:;
+       
+     }
+     
+     li.ex{
+       color:white;
+              animation-name: glow2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+     }
+     
+        @keyframes glow2{
+        50%{box-shadow:0px 0px 20px violet}
+      }
+      
+      li.idk{
+        color:white;
+        font-family: Monospace;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
